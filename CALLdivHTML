@@ -1,0 +1,19 @@
+
+
+Código HTML:
+<STYLE>
+#menu_customers #mostrar{display:none}
+#menu_customers:hover #mostrar{display:block}
+</STYLE>
+
+
+
+<div id="menu_customers">
+
+<a href="#" onclick="MostrarOcultar('mostrar')">Customers Services</a>
+
+<div id="mostrar" style="display:none">
+<p>Customer service</p>
+</div>
+
+</div> 
